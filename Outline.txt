@@ -1,0 +1,24 @@
+Use Case : Place order
+Brief description:Describes the interaction between customers and AIMS software when the customer wishes to place order
+
+ Basic flow:
+Customer views cart
+The customer request to place order in the view cart screen
+The AIMS software checks the availability of products in the cart
+The AIMS software displays the form of delivery information
+The customer enters and submits delivery information
+The AIMS software check the validity of delivery information
+The AIMS software calculates shipping fees
+The AIMS software displays the invoice
+The customer confirms to place order
+The AIMS software calls UC “Pay order”
+The AIMS software save order
+The AIMS software makes the cart empty
+The AIMS software displays the successful order notification.
+
+
+Alternative flow
+      2a) Software checks availability of products if unavailable inform notification 
+      5a) If delivery information is wrong, customer doesn’t submit , turn back (1)
+      6a) AIMS software checks validity false, turn back (4) 
+      9a) If customer doesn’t want to buy or want to buy something more, then        don’t submit, turn back to (1)

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="667.0" prefWidth="1013.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button defaultButton="true" layoutX="599.0" layoutY="205.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="delete" />
+      <Label layoutX="118.0" layoutY="43.0" prefHeight="52.0" prefWidth="323.0" text="AIMS | Cart">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="144.0" fitWidth="106.0" layoutX="106.0" layoutY="129.0">
+         <image>
+            <Image url="@ic_book.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#da1414" layoutX="236.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DORAEMON 51" />
+      <Text fill="#16d934" layoutX="236.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Spinner editable="true" layoutX="333.0" layoutY="205.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label alignment="CENTER" layoutX="291.0" layoutY="210.0" prefHeight="16.0" prefWidth="42.0" text="x" />
+      <Text fill="#16d934" layoutX="503.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Label alignment="CENTER" layoutX="445.0" layoutY="210.0" prefHeight="16.0" prefWidth="42.0" text="=" />
+      <ImageView fitHeight="144.0" fitWidth="106.0" layoutX="106.0" layoutY="306.0">
+         <image>
+            <Image url="@ic_book.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#da1414" layoutX="236.0" layoutY="349.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONAN 52" />
+      <Text fill="#16d934" layoutX="236.0" layoutY="400.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Spinner editable="true" layoutX="333.0" layoutY="382.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label alignment="CENTER" layoutX="291.0" layoutY="387.0" prefHeight="16.0" prefWidth="42.0" text="x" />
+      <Text fill="#16d934" layoutX="503.0" layoutY="399.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Label alignment="CENTER" layoutX="445.0" layoutY="387.0" prefHeight="16.0" prefWidth="42.0" text="=" />
+      <ImageView fitHeight="144.0" fitWidth="106.0" layoutX="106.0" layoutY="488.0">
+         <image>
+            <Image url="@ic_book.jpeg" />
+         </image>
+      </ImageView>
+      <Text fill="#da1414" layoutX="236.0" layoutY="531.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DORAEMON 50" />
+      <Text fill="#16d934" layoutX="236.0" layoutY="582.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Spinner editable="true" layoutX="333.0" layoutY="564.0" prefHeight="26.0" prefWidth="92.0" />
+      <Label alignment="CENTER" layoutX="291.0" layoutY="569.0" prefHeight="16.0" prefWidth="42.0" text="x" />
+      <Text fill="#16d934" layoutX="503.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50,000 đ" />
+      <Label alignment="CENTER" layoutX="445.0" layoutY="569.0" prefHeight="16.0" prefWidth="42.0" text="=" />
+      <Line endX="546.0" layoutX="150.0" layoutY="289.0" startX="-100.0" />
+      <Line endX="548.0" layoutX="150.0" layoutY="474.0" startX="-100.0" />
+      <Button defaultButton="true" layoutX="599.0" layoutY="382.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="delete" />
+      <Button defaultButton="true" layoutX="599.0" layoutY="565.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="delete" />
+      <Line endX="-4.5" endY="488.5" layoutX="738.0" layoutY="120.0" startX="-10.5" startY="-11.5" />
+      <Text fill="#da1414" layoutX="772.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total: 150,000đ">
+         <font>
+            <Font size="26.0" />
+         </font>
+      </Text>
+      <Button defaultButton="true" layoutX="816.0" layoutY="459.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="154.0" text="Place Order" />
+      <Button defaultButton="true" layoutX="816.0" layoutY="569.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="154.0" text="Place Rush Order" />
+      <ImageView fitHeight="138.0" fitWidth="117.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@splash_aims.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

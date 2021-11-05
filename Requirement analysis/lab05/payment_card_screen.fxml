@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="844.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button defaultButton="true" layoutX="686.0" layoutY="502.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="109.0" text="Button" />
+      <TextField layoutX="62.0" layoutY="194.0" prefHeight="36.0" prefWidth="272.0" />
+      <TextField layoutX="500.0" layoutY="194.0" prefHeight="36.0" prefWidth="295.0" />
+      <TextField layoutX="64.0" layoutY="315.0" prefHeight="60.0" prefWidth="272.0" />
+      <TextField layoutX="500.0" layoutY="315.0" prefHeight="89.0" prefWidth="295.0" />
+      <Label layoutX="64.0" layoutY="158.0" prefHeight="36.0" prefWidth="144.0" text="Crad number" />
+      <Label layoutX="64.0" layoutY="262.0" prefHeight="36.0" prefWidth="144.0" text="Card holder name" />
+      <Label layoutX="500.0" layoutY="158.0" prefHeight="36.0" prefWidth="144.0" text="Expiration date" />
+      <Label layoutX="500.0" layoutY="268.0" prefHeight="25.0" prefWidth="144.0" text="Card security code" />
+      <Label alignment="TOP_CENTER" layoutX="198.0" layoutY="56.0" prefHeight="52.0" prefWidth="475.0" text="AIMS | Payment" textAlignment="CENTER">
+         <font>
+            <Font size="43.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="373.0" layoutY="395.0" mnemonicParsing="false" text="Credit Card" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="114.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@splash_aims.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

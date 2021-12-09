@@ -67,10 +67,10 @@ public class Media {
         return null;
     }
 
-    public List getAllMedia() throws SQLException{
+    public List<Media> getAllMedia() throws SQLException{
         Statement stm = AIMSDB.getConnection().createStatement();
         ResultSet res = stm.executeQuery("select * from Media");
-        ArrayList medium = new ArrayList<>();
+        ArrayList<Media> medium = new ArrayList<>();
         while (res.next()) {
             Media media = new Media()
                 .setId(res.getInt("id"))

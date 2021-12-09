@@ -29,7 +29,7 @@ public class Cart {
         lstCartMedia.remove(cm);
     }
 
-    public List getListMedia(){
+    public List<CartMedia> getListMedia(){
         return lstCartMedia;
     }
 

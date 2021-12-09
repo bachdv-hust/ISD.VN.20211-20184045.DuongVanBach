@@ -81,7 +81,11 @@ public class PlaceOrderController extends BaseController{
     public void validateDeliveryInfo(HashMap<String, String> info) throws InterruptedException, IOException{
     	
     }
-    
+    /**
+     * This method validate phoneNumber
+     * @param phoneNumber is phoneNumber want to validate
+     * @return bool
+     */
     public boolean validatePhoneNumber(String phoneNumber) {
         if (phoneNumber.charAt(0)!='0'){
             return false;
@@ -91,11 +95,19 @@ public class PlaceOrderController extends BaseController{
         }
         return true;
     }
-    
+    /**
+     * This method validate name
+     * @param name is name want to validate
+     * @return bool
+     */
     public boolean validateName(String name) {
         return name != null && name.matches("^[a-zA-Z]*$");
     }
-    
+    /**
+     * This method validate address
+     * @param address is address want to validate
+     * @return bool
+     */
     public boolean validateAddress(String address) {
         return address != null && address.matches("^[a-zA-Z]*$");
     }

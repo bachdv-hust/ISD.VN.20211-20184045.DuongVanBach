@@ -1,6 +1,6 @@
 package controller;
 
-public class PlaceRushOrderController extends PlaceOrderController {
+public class PlaceRushOrderController extends PlaceOrderController  {
 
     /**
      * This method validate address
